@@ -5,18 +5,18 @@ import subprocess
 def handle_button():
     if switch_var.get():
         print("Switch is ON")
-        publish_data("1")  # Publish '1' when switch is ON
+        publish_data("1")  
     else:
         print("Switch is OFF")
-        publish_data("0")  # Publish '0' when switch is OFF
+        publish_data("0")
 
 def handle_leftright():
     if leftright_var.get():
         print("Switch is ON")
-        publish_right("l")  # Publish '1' when switch is ON
+        publish_right("l")  
     else:
         print("Switch is OFF")
-        publish_right("r")  # Publish '0' when switch is OFF
+        publish_right("r")
 
 
 
